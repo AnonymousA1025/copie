@@ -45,7 +45,7 @@ async def start_comm(client, message: Message, _):
             keyboard = help_pannel(_)
             await message.reply_sticker("CAACAgUAAxkBAAJE8GK4EsoLVZC2SW5W5Q-QAkaoN8f_AAL9BQACiy14VGoQxOCDfE1KKQQ")
             return await message.reply_photo(
-                       photo=config.START_IMG_URL,
+                       photo="https://graph.org/file/3b85d1b597b3ad20f648b.jpg",
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
             )
         if name[0:4] == "song":
