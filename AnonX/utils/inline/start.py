@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
 
-
+xotic = "https://te.legra.ph/file/0387fbf52c52b7072407f.jpg"
 def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
@@ -19,7 +19,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
+                text="Sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
             ),
         ],
      ]
@@ -41,18 +41,18 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text=" Sᴜᴩᴩᴏʀᴛ ", url=config.SUPPORT_GROUP
+                text=" Sᴜᴩᴩᴏʀᴛ ", url="t.me/RadhaX2Support"
             ),
             InlineKeyboardButton(
-                text=" Dᴇv ", user_id=OWNER
+                text=" Sᴛᴀᴛᴜs ", url="t.me/RadhaX2Update"
             )
         ],
         [
             InlineKeyboardButton(
-                text=" Sᴏᴜʀᴄᴇ ", url=config.UPSTREAM_REPO
+                text=" Sᴏᴜʀᴄᴇ ", url=xotic
             ),
             InlineKeyboardButton(
-                text=" Something ", url="t.me/TryGoogle"
+                text=" Oᴡɴᴇʀ ", url="t.me/MissRadha"
             )
         ],
      ]
