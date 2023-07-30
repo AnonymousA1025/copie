@@ -50,6 +50,9 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text=" Sᴏᴜʀᴄᴇ ", url=config.UPSTREAM_REPO
+            ),
+            InlineKeyboardButton(
+                text=" Something ", url="t.me/TryGoogle"
             )
         ],
      ]
