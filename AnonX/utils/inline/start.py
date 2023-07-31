@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 import config
 
-xotic = "https://te.legra.ph/file/0387fbf52c52b7072407f.jpg"
+xotic = "https://te.legra.ph/file/80f60065ffa9a532afc97.mp4"
 def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
